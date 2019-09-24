@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0896364DEE8B0DAC2830DB7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0896364DEE8B0DAC2830DB7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		377B4AAF2AB63B9D1DE4CDBC /* Pods_CYDEMOSpec_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYDEMOSpec_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0CBCD96B95DB04F18CE6F8 /* Pods-CYDEMOSpec_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYDEMOSpec_Example.debug.xcconfig"; path = "Target Support Files/Pods-CYDEMOSpec_Example/Pods-CYDEMOSpec_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		525F13DC7E5ACCCD9DB34E2E /* Pods-CYDEMOSpec_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYDEMOSpec_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CYDEMOSpec_Tests/Pods-CYDEMOSpec_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85107BD436CD4A62C4CA47C3 /* Pods-CYDEMOSpec_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYDEMOSpec_Example.release.xcconfig"; path = "Target Support Files/Pods-CYDEMOSpec_Example/Pods-CYDEMOSpec_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFAA17ABF9CCB74ADAB3BEBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EC696A8A4BD9153209B9009D /* CYDEMOSpec.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CYDEMOSpec.podspec; path = ../CYDEMOSpec.podspec; sourceTree = "<group>"; };
+		AFAA17ABF9CCB74ADAB3BEBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EC696A8A4BD9153209B9009D /* CYDEMOSpec.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CYDEMOSpec.podspec; path = ../CYDEMOSpec.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC6DC20C03DBE9A02483FC72 /* Pods_CYDEMOSpec_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYDEMOSpec_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				525F13DC7E5ACCCD9DB34E2E /* Pods-CYDEMOSpec_Tests.debug.xcconfig */,
 				56234FE6CB230F8077D8CF18 /* Pods-CYDEMOSpec_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

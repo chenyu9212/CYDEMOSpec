@@ -1,0 +1,16 @@
+PODS:
+  - CYDEMOSpec (0.1.0)
+
+DEPENDENCIES:
+  - CYDEMOSpec (from `../`)
+
+EXTERNAL SOURCES:
+  CYDEMOSpec:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYDEMOSpec: c9efa09df0f97b694c3624e669d9f5de608f7066
+
+PODFILE CHECKSUM: 5eac24dabce9f0fb201bffdeb833ea18e30d150f
+
+COCOAPODS: 1.7.5

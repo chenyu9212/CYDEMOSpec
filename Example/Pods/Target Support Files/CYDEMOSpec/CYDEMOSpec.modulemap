@@ -1,0 +1,6 @@
+framework module CYDEMOSpec {
+  umbrella header "CYDEMOSpec-umbrella.h"
+
+  export *
+  module * { export * }
+}
